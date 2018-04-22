@@ -1,0 +1,11 @@
+-- Criação da table no Apach Hive 
+
+create table tbcrime (
+ID string,CaseNumber string,Data string,Block string,IUCR string,PrimaryType string,Description string,
+LocationDescription string,Arrest string,Domestic string,Beat int,District int,Ward int,CommunityArea int,FBICode string,XCoordinate int,
+YCoordinate int,Year int,UpdatedOn timestamp,Latitude Double,Longitude Double,Location string)
+ROW FORMAT DELIMITED FIELDS TERMINATED by',';
+
+-- Importação do dataset para a tabela do hive tbcrime.
+
+LOAD DATA INPATH '/example/data/Crimes_-_2001_to_present.csv' INTO TABLE tbcrime;
