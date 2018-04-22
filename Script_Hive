@@ -3,8 +3,6 @@
 --Crimes - 2001 to present 
 https://catalog.data.gov/dataset?res_format=CSV&tags=crime
 
-
-
 ## Criação da table no Apach Hive 
 
 create table tbcrime (
