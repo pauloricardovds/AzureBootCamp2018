@@ -6,6 +6,6 @@ Neste repositório contém os scripts de criação da tabela e importação do d
 # Dashboard Power BI
 
 
-![alt text](https://drive.google.com/file/d/1MGI3U2BUu8iTtQdA-pYto_B5SjJi_By7/view?usp=sharing)
+![alt text](https://github.com/pauloricardovds/AzureBootCamp2018/blob/master/Dash_Crimes_Azure_bootcamp.jpg)
 
 
